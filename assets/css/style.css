@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 18px;
-  background-color: #f2f2f2;
+  background-color: white;
 }
 
 h1 {
@@ -24,12 +24,12 @@ header {
   height: 60px;
   display: flex;
   align-items: center;
-  background-color: white;
 }
 
 header > div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header ul {
@@ -39,7 +39,41 @@ header ul {
 }
 
 header li {
-  padding-left: 20px;
+  padding-left: 30px;
   font-size: 12px;
   margin-top: 2px;
+}
+
+/*FILTRES*/
+.filtres {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+/*BUTTON*/
+.btn {
+  line-height: 36px;
+  border: solid 2px #f2f2f2;
+  background-color: white;
+  width: 150px;
+  padding: 0 12px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.search {
+  background-color: #0065fc;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+/*ICONS*/
+.fas fa-money-bill-wave;
+
+.search-input {
+  display: flex;
+  justify-content: center;
 }

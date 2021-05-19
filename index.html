@@ -8,6 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <title>Réservia</title>
   <link rel="stylesheet" href="/assets/css/reset.css" />
+  <script src="https://kit.fontawesome.com/cdcd2eeb87.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/assets/css/style.css" />
@@ -18,33 +19,35 @@
       <img src="assets/img/Reservia.svg" alt="Logo Reservia" />
       <ul>
         <li>Hébergements</li>
-        <li>Activité<section></section></li>
-        <button>S'inscrire</button>
+        <li>Activité</li>
+        <li>S'inscrire</li>
       </ul>
     </div>
   </header>
-  <menu>
+  <section class="container">
     <div>
       <h1>Trouver votre hébergement pour des vacances de rêve</h1>
       <h2>En plein centre ville ou en pleine nature</h2>
-      <div>
-        <img></img>
-        <p>Marseille,France</p>
-        <button>Rechercher</button>
+      <div class="search-input">
+        <span>
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
+        <input type="search" placeholder="Marseille, France">
+        <button class="search">Rechercher</button>
       </div>
-      <div>
+      <div class="filtres">
         <p>Filtres</p>
-        <div class="button"></div>
-        <div class="button"></div>
-        <div class="button"></div>
-        <div class="button"></div>
+        <button class="btn"><i class="fas fa-money-bill-wave"></i>Économique</button>
+        <button class="btn"><i class="fas fa-child"></i>Familial</button>
+        <button class="btn"><i class="fas fa-heart"></i>Romantique</button>
+        <button class="btn"><i class="fas fa-dog"></i>Animaux autoriés</button>
       </div>
       <div>
         <img></img>
         <p>Plus de 500 logements sont disponibles dans cette ville</p>
       </div>
-    </menu>
-<main>
+    </section>
+<main class="container">
   <section class="hébergements">
     <h3>Hébergements à Marseille</h3>
     <div class="imgHébergements">
@@ -66,7 +69,7 @@
     </div>
   </section>
 </main>
-<section class="activités">
+<section class="container activités">
   <h3>Activités à Marseille</h3>
   <div>
     <div class="imgActivités"></div>
@@ -81,7 +84,7 @@
   </div>
   </div>
 </section>
-<footer>
+<footer class="container">
   <div>
     <div class="about">
     <h4>A propos</h4>
