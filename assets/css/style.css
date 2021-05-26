@@ -186,6 +186,7 @@ nav li a:hover {
 
 .containerInfo {
   display: flex;
+  align-items: center;
 }
 .iconInfo {
   display: flex;
@@ -603,7 +604,7 @@ footer a:hover {
   }
 
   .hotelName {
-    font-size: 1rem !important;
+    font-size: 1rem;
   }
 
   .popularDescription p {
@@ -615,7 +616,7 @@ footer a:hover {
   }
 
   .fa-star {
-    font-size: 0.8rem !important;
+    font-size: 0.8rem;
     letter-spacing: 1px;
   }
 
