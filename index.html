@@ -15,13 +15,10 @@
 </head>
 <body> 
   <div id="main">
-      <!-- Header -->
       <header class="flex">
           <div class="logo">
               <img src="assets/img/logo/Reservia.svg" alt="Reservia">
           </div>
-
-          <!-- Navigation -->
           <nav class="flex">      
               <ul class="flex">
                   <li><a href="#hotelsNav">Hébergements</a></li>
@@ -30,13 +27,11 @@
           </nav>
           <a href="" class="signUp">S'inscrire</a>
       </header>
-
-      <!-- Search-->
       <div class="search">
           <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
           <p>En plein centre ville ou en pleine nature</p>
-          <form class="searchBar flex">
-              <div class="containerMarker flex">
+          <form class="searchBar">
+              <div class="marker">
                   <i class="fas fa-map-marker-alt"></i>
               </div>
               <input type="search" class="searchInput" placeholder="Marseille, France">
@@ -45,35 +40,33 @@
                   <i class="fas fa-search"></i>
               </button>
           </form>
-
-          <!-- Filters -->
-          <div class="filters flex">
+          <div class="filters">
               <div class="textFilter">Filtres</div>
-              <div class="filterList flex">
+              <div class="filterList">
 
-                  <div class="filter flex">
-                      <div class="iconFilter flex">
+                  <div class="filter">
+                      <div class="iconFilter">
                           <i class="fas fa-money-bill-wave"></i>
                       </div>
                       <span>Économique</span>
                   </div>
                   
-                  <div class="filter flex">
-                      <div class="iconFilter flex">
+                  <div class="filter">
+                      <div class="iconFilter">
                           <i class="fas fa-child"></i>
                       </div>
                       <span>Familial</span>
                   </div>
                   
-                  <div class="filter flex">
-                      <div class="iconFilter flex">
+                  <div class="filter">
+                      <div class="iconFilter">
                           <i class="fas fa-heart"></i>
                       </div>
                       <span>Romantique</span>
                   </div>
 
-                  <div class="filter flex">
-                      <div class="iconFilter flex">
+                  <div class="filter">
+                      <div class="iconFilter">
                           <i class="fas fa-dog"></i>
                       </div>
                       <span>Animaux autorisés</span>
@@ -81,26 +74,24 @@
 
               </div>
           </div>
-          <div class="containerInfo flex">
-              <div class="iconInfo flex">
+          <div class="containerInfo">
+              <div class="iconInfo">
                   <i class="fas fa-info"></i>
               </div>
               Plus de 500 logements sont disponibles dans cette ville
           </div>
       </div>
 
-      <div class="containerHotels flex">
-
-          <!-- Hotels -->
+      <div class="containerHotels">
           <section class="hotels">
               <h2 id="hotelsNav">Hébergements à Marseille</h2>
               <div class="hotelsTab">
 
                   <a href="#">
-                      <article class="hotelFrame">
+                      <article class="hotelContainer">
                           <img src="assets/img/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
-                               alt="Photo d'une chambre avec un lit superposé et vu sur la ville">
-                          <div class="hotelDescription flex">
+                               alt="Auberge la Cannebière">
+                          <div class="hotelDescription">
                               <h3>Auberge la Cannebière</h3>
                               <p>Nuit à partir de <span class="euros">25€</span></p>
                               <div class="hotelRate">
@@ -115,10 +106,10 @@
                   </a>    
 
                   <a href="#">
-                      <article class="hotelFrame">
+                      <article class="hotelContainer">
                           <img src="assets/img/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg" 
-                               alt="Photo d'une chambre avec deux lits simples">
-                          <div class="hotelDescription flex">
+                               alt="Hôtel du port">
+                          <div class="hotelDescription">
                               <h3>Hôtel du port</h3>
                               <p>Nuit à partir de 52<span class="euros">€</span></p>
                               <div class="hotelRate">
@@ -133,10 +124,10 @@
                   </a>
 
                   <a href="#">
-                      <article class="hotelFrame">
+                      <article class="hotelContainer">
                           <img src="assets/img/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg" 
-                               alt="Photo d'une chambre avec un lit simple">
-                          <div class="hotelDescription flex">
+                               alt="Hôtel Les mouettes">
+                          <div class="hotelDescription">
                               <h3>Hôtel Les mouettes</h3>
                               <p>Nuit à partir de 76<span class="euros">€</span></p>
                               <div class="hotelRate">
@@ -151,10 +142,10 @@
                   </a>
 
                   <a href="#">
-                      <article class="hotelFrame">
+                      <article class="hotelContainer">
                           <img src="assets/img/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg" 
-                               alt="Photo d'une chambre avec un lit double sur le thème de la mer">
-                          <div class="hotelDescription flex">
+                               alt="Hôtel de la mer">
+                          <div class="hotelDescription">
                               <h3>Hôtel de la mer</h3>
                               <p>Nuit à partir de 46<span class="euros">€</span></p>
                               <div class="hotelRate">
@@ -169,10 +160,10 @@
                   </a>
 
                   <a href="#">
-                      <article class="hotelFrame">
+                      <article class="hotelContainer">
                           <img src="assets/img/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                               alt="Photo d'une chambre d'auberge avec deux lits superposés">
-                          <div class="hotelDescription flex">
+                               alt="Auberge Le Panier">
+                          <div class="hotelDescription">
                               <h3>Auberge Le Panier</h3>
                               <p>Nuit à partir de <span class="euros">23€</span></p>
                               <div class="hotelRate">
@@ -187,10 +178,10 @@
                   </a>
 
                   <a href="#">
-                      <article class="hotelFrame">
+                      <article class="hotelContainer">
                           <img src="assets/img/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" 
-                               alt="Photo d'une chambre avec deux lits simples">
-                          <div class="hotelDescription flex">
+                               alt="Hôtel chez Amina">
+                          <div class="hotelDescription">
                               <h3>Hôtel chez Amina</h3>
                               <p>Nuit à partir de 96<span class="euros">€</span></p>
                               <div class="hotelRate">
@@ -206,20 +197,18 @@
               </div>
               <a class="showMore" href="">Afficher plus</a>
           </section>
-
-          <!-- Popular -->
           <section class="popular">
-              <div class="popularIcon flex">
+              <div class="popularIcon">
                   <h2>Les plus populaires</h2>
                   <i class="fas fa-chart-line"></i>
               </div>
               <div class="popularTab">
 
                   <a href="#">
-                      <article class="popularFrame flex">
+                      <article class="popularContainer">
                           <img src="assets/img/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                               alt="Photo d'une chambre luxueuse avec un grand lit double">
-                          <div class="popularDescription flex">
+                               alt="Hôtel Le soleil du matin">
+                          <div class="popularDescription">
                               <div>
                                   <h3>Hôtel Le soleil du matin</h3>
                                   <p>Nuit à partir de 128<span class="euros">€</span></p>
@@ -236,10 +225,10 @@
                   </a>
 
                   <a href="#">
-                      <article class="popularFrame flex">
+                      <article class="popularContainer">
                           <img src="assets/img/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg" 
-                               alt="Photo d'une chambre moderne avec un grand lit double">
-                          <div class="popularDescription flex">
+                               alt="Au coeur de l'eau Chambres d'hôtes">
+                          <div class="popularDescription">
                               <div>
                                   <h3>Au coeur de l'eau Chambres d'hôtes</h3>
                                   <p>Nuit à partir de 71<span class="euros">€</span></p>
@@ -256,10 +245,10 @@
                   </a>
 
                   <a href="#">
-                      <article class="popularFrame flex">
+                      <article class="popularContainer">
                           <img src="assets/img/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg" 
-                               alt="Photo d'une chambre avec un lit double">
-                          <div class="popularDescription flex">
+                               alt="Hôtel Tout bleu et Blanc">
+                          <div class="popularDescription">
                               <div>
                                   <h3>Hôtel Tout bleu et Blanc</h3>
                                   <p>Nuit à partir de 68<span class="euros">€</span></p>
@@ -278,65 +267,64 @@
               </div>
           </section>
       </div>
-      <!-- Activities -->
       <section class="activities">
           <h2 id="activitiesNav">Activités à Marseille</h2>
           <div class="activitiesTab">
 
-              <a href="#" class="row12">
-                  <div class="activityFrame">
+              <a href="#" class="longImg">
+                  <div class="activityContainer">
                       <img src="assets/img/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" 
-                           alt="Photo d'un port de plaisance rempli de bateaux">
+                           alt="Vieux Port">
                       <div class="activityDescription">
                           Vieux Port
                       </div>
                   </div>
               </a>
 
-              <a href="#" class="row6">
-                  <div class="activityFrame">
+              <a href="#" class="mediumImg">
+                  <div class="activityContainer">
                       <img src="assets/img/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                           alt="Photo d'un fort entouré de roche grès">
+                           alt="Fort de Pomègues">
                       <div class="activityDescription">
                           Fort de Pomègues
                       </div>
                   </div>
               </a>
 
-              <a href="#" class="row5">
-                  <div class="activityFrame">
+              <a href="#" class="smallImg">
+                  <div class="activityContainer">
                       <img src="assets/img/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" 
-                           alt="Photo d'une longue vue en premier plan, de la mer en second plan et d'une île en troisième plan"> 
+                           alt="Îles du Frioul"> 
                       <div class="activityDescription">
                           Îles du Frioul
                       </div>
                   </div>
               </a>
 
-              <a href="#" class="row12">
-                  <div class="activityFrame">
+              <a href="#" class="longImg">
+                  <div class="activityContainer">
                       <img src="assets/img/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" 
-                           alt="Photo des calanques de Marseille">
+                           alt="Parc National des Calanques">
                       <div class="activityDescription">
                           Parc National des Calanques
                       </div>
                   </div>
               </a>
 
-              <a href="#" class="row5">
-                  <div class="activityFrame">
+              <a href="#" class="smallImg">
+                  <div class="activityContainer">
                       <img src="assets/img/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" 
-                           alt="Photo de Notre-Dame-de-la-Garde, une basilique mineure situé en haut d'une colline, entourée d'habitations">
+                           alt="Notre-Dame-de-la-Garde">
                       <div class="activityDescription">
                           Notre-Dame-de-la-Garde
                       </div>
                   </div>
               </a>
 
-              <a href="#" class="row6">
-                  <div class="activityFrame">
+              <a href="#" class="mediumImg">
+                  <div class="activityContainer">
                       <img src="assets/img/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-                           alt="Photo d'un majestueux bâtiment aux pierres blanches et d'une fontaine">
+                           alt="Parc Longchamp">
                       <div class="activityDescription">
                           Parc Longchamp
                       </div>
@@ -347,7 +335,6 @@
       </section>
   </div>
 
-  <!-- Footer -->
   <footer class="flex">
       <div class="about">
           <h3>A propos</h3>

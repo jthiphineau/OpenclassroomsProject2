@@ -32,10 +32,10 @@ h3 {
 }
 
 .euros {
-  font-weight: 600;
+  font-weight: bold;
 }
 
-/* Header */
+/* HEADER */
 
 header {
   justify-content: space-between;
@@ -57,7 +57,7 @@ nav a {
 
 .signUp {
   color: #0065fc;
-  font-weight: 700;
+  font-weight: bold;
   padding: 40px 40px 0;
 }
 
@@ -67,7 +67,7 @@ nav li a:hover {
   padding-top: 38px;
 }
 
-/* Search bar */
+/* SEARCH */
 
 .search {
   margin-bottom: 30px;
@@ -82,18 +82,20 @@ nav li a:hover {
 }
 
 .searchBar {
+  display: flex;
   margin-bottom: 30px;
   height: 50px;
 }
 
-.containerMarker {
+.marker {
+  display: flex;
   background-color: #f2f2f2;
   border-radius: 15px 0 0 15px;
   width: 50px;
   flex-shrink: 0;
 }
 
-.containerMarker i {
+.marker i {
   margin: auto;
   font-size: 1.2rem;
 }
@@ -102,7 +104,7 @@ nav li a:hover {
   border: 1px solid #f2f2f2;
   padding: 0 0 0 15px;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: bold;
   width: 230px;
 }
 
@@ -117,7 +119,7 @@ nav li a:hover {
   padding: 0;
   border-radius: 0 15px 15px 0;
   color: #fff;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.1rem;
   cursor: pointer;
   flex-shrink: 0;
@@ -127,20 +129,22 @@ nav li a:hover {
   display: none;
 }
 
-/* Filters */
+/* FILTERS */
 
 .textFilter {
   align-self: center;
 }
 
 .filters {
+  display: flex;
   flex-wrap: wrap;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1.1rem;
   margin-bottom: 30px;
 }
 
 .filter {
+  display: flex;
   align-items: center;
   height: 46px;
   border: 2px solid #f2f2f2;
@@ -161,10 +165,12 @@ nav li a:hover {
 }
 
 .filterList {
+  display: flex;
   flex-wrap: wrap;
 }
 
 .iconFilter {
+  display: flex;
   position: relative;
   right: 1px;
   width: 50px;
@@ -178,7 +184,11 @@ nav li a:hover {
   color: #0065fc;
 }
 
+.containerInfo {
+  display: flex;
+}
 .iconInfo {
+  display: flex;
   height: 20px;
   width: 20px;
   border: 1px solid #f2f2f2;
@@ -192,7 +202,11 @@ nav li a:hover {
   color: #0065fc;
 }
 
-/* Hotels */
+/* HOTELS */
+
+.containerHotels {
+  display: flex;
+}
 
 .hotels,
 .popular {
@@ -216,7 +230,7 @@ nav li a:hover {
   margin: 30px 0 50px;
 }
 
-.hotelFrame {
+.hotelContainer {
   display: grid;
   height: 220px;
   grid-template-rows: 1fr 40%;
@@ -227,13 +241,14 @@ nav li a:hover {
   box-shadow: 0 0 7px #c1c1c1;
 }
 
-.hotelFrame img {
+.hotelContainer img {
   width: 100%;
   height: 126px;
   object-fit: cover;
 }
 
 .hotelDescription {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   background-color: #fff;
@@ -262,11 +277,11 @@ nav li a:hover {
 }
 
 .showMore {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 1.2rem;
 }
 
-/* Popular */
+/* POPULAR */
 
 .popular {
   flex: 1;
@@ -274,6 +289,7 @@ nav li a:hover {
 }
 
 .popularIcon {
+  display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
@@ -287,7 +303,8 @@ nav li a:hover {
   font-size: 1.5rem;
 }
 
-.popularFrame {
+.popularContainer {
+  display: flex;
   height: 145px;
   border: 5px solid #fff;
   border-radius: 15px;
@@ -297,13 +314,14 @@ nav li a:hover {
   overflow: hidden;
 }
 
-.popularFrame img {
+.popularContainer img {
   width: 40%;
   height: 100%;
   object-fit: cover;
 }
 
 .popularDescription {
+  display: flex;
   flex: 1;
   background-color: #fff;
   flex-direction: column;
@@ -321,7 +339,7 @@ nav li a:hover {
   margin-bottom: 0;
 }
 
-/* Activities */
+/* AcCTIVITIES */
 
 .activitiesTab {
   display: grid;
@@ -331,19 +349,19 @@ nav li a:hover {
   grid-auto-flow: column;
 }
 
-.row12 {
+.longImg {
   grid-row-end: span 13;
 }
 
-.row6 {
+.mediumImg {
   grid-row-end: span 7;
 }
 
-.row5 {
+.smallImg {
   grid-row-end: span 6;
 }
 
-.activityFrame {
+.activityContainer {
   display: grid;
   grid-template-rows: 1fr 50px;
   height: 100%;
@@ -353,7 +371,7 @@ nav li a:hover {
   box-shadow: 0 0 7px #c1c1c1;
 }
 
-.activityFrame img {
+.activityContainer img {
   width: 100%;
   object-fit: cover;
   height: 100%;
@@ -364,10 +382,10 @@ nav li a:hover {
   background-color: #fff;
   padding-left: 10px;
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: bold;
 }
 
-/* Footer */
+/* FOOTER */
 
 footer {
   padding: 40px 50px 50px;
@@ -383,7 +401,7 @@ footer li {
 }
 
 footer a:hover {
-  font-weight: 600;
+  font-weight: bold;
   color: #0065fc;
 }
 
@@ -402,9 +420,9 @@ footer a:hover {
   }
 }
 
-/* Tablet version */
+/* TABLET */
 @media only screen and (max-width: 1024px) {
-  /* Search - Tablet */
+  /* SEARCH */
   .filters {
     flex-direction: column;
   }
@@ -418,13 +436,13 @@ footer a:hover {
     margin: 0 1rem 1rem 0;
   }
 
-  /* Popular - Tablet */
+  /* POPULAR */
 
   .popular {
     margin: 0 0 20px;
   }
 
-  .popularFrame {
+  .popularContainer {
     height: 180px;
   }
 
@@ -440,7 +458,7 @@ footer a:hover {
     font-size: 1rem;
   }
 
-  /* Hotels - Tablet */
+  /* HOTELS */
 
   .hotels {
     order: 2;
@@ -450,19 +468,19 @@ footer a:hover {
     flex-direction: column;
   }
 
-  /* Activities - Tablet */
+  /* ACTIVITIES */
 
   .activitiesTab {
     height: auto;
   }
 
-  .activityFrame {
+  .activityContainer {
     height: 190px;
   }
 
-  .row12,
-  .row5,
-  .row6 {
+  .longImg,
+  .smallImg,
+  .mediumImg {
     grid-row-end: span 4;
     grid-column-end: span 2;
   }
@@ -471,17 +489,15 @@ footer a:hover {
     font-size: 1.1rem;
   }
 
-  /* Footer - Tablet */
+  /* FOOTER */
 
   footer div {
     padding: 10px;
   }
 }
 
-/* Mobile version */
+/* MOBILE */
 @media only screen and (max-width: 600px) {
-  /* General */
-
   #main {
     margin: 0;
   }
@@ -490,7 +506,7 @@ footer a:hover {
     font-size: 1.4rem;
   }
 
-  /* Header - Mobile */
+  /* HEADER */
 
   header {
     margin: 0;
@@ -536,7 +552,7 @@ footer a:hover {
     border-bottom-color: #0065fc;
   }
 
-  /* Search - Mobile */
+  /* SEARCH */
 
   .search {
     margin: 30px 20px;
@@ -569,7 +585,7 @@ footer a:hover {
     margin-bottom: 12px;
   }
 
-  /* Popular - Mobile */
+  /* POPULAR */
 
   .popular {
     border-radius: 0;
@@ -577,7 +593,7 @@ footer a:hover {
     margin-bottom: 40px;
   }
 
-  .popularFrame {
+  .popularContainer {
     height: 145px;
     margin-bottom: 10px;
   }
@@ -603,9 +619,9 @@ footer a:hover {
     letter-spacing: 1px;
   }
 
-  /* Hotels - Mobile */
+  /* HOTELS */
 
-  .hotelFrame {
+  .hotelContainer {
     height: 200px;
   }
 
@@ -619,7 +635,7 @@ footer a:hover {
     gap: 15px;
   }
 
-  .hotelFrame img {
+  .hotelContainer img {
     height: 116px;
   }
 
@@ -627,7 +643,7 @@ footer a:hover {
     font-size: 0.9rem;
   }
 
-  /* Activities - Mobile */
+  /* ACTIVITIES */
 
   .activities {
     margin: 55px 20px 45px;
@@ -639,14 +655,14 @@ footer a:hover {
     gap: 24px;
   }
 
-  .row12,
-  .row5,
-  .row6 {
+  .longImg,
+  .smallImg,
+  .mediumImg {
     grid-row-end: span 1;
     grid-column-end: span 1;
   }
 
-  /* Footer - Mobile */
+  /* FOOTER */
 
   footer {
     flex-direction: column;
