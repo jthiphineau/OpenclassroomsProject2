@@ -14,9 +14,10 @@ Transformer une maquette en site web
 ![maquette web reservia](../master/assets/img/mockup/Desktop - 1.png)
 ![maquette web reservia](../master/assets/img/mockup/iPhone 8 - 1.png)
 
-
 ## Éléments fournis par l'entreprise virtuelle.
->>>>>>> 02ff055401da4b0f05a938aae92000395e4933be
+
+> > > > > > > 02ff055401da4b0f05a938aae92000395e4933be
+
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 - Les icones proviennent de [Font Awesome](https://fontawesome.com/)
@@ -32,7 +33,7 @@ Transformer une maquette en site web
 - Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 - Même si aucune maquette pour la résolution tablette n'est fournis, l'intégration doit la prendre en charge.
 - Les images doivent être de taille adéquate afin qu'elle soit le plus jolie possible en impactant le moins possible le temps de chargement de la page.
-- [Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmathisbarre.github.io%2FMathisBarre_2_14102020%2F)
+- [Le code devra utiliser les balises sémantiques et ne doit contenir aucune erreur ni alerte au validateur W3C HTML et CSS.](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjthiphineau.github.io%2FThiphineauJulien_2_06052021%2F)
 - Le site devra être compatible avec les dernières versions de Chrome et Firefox.
 - Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 - Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
