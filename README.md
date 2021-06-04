@@ -4,11 +4,19 @@ Transformer une maquette en site web
 
 # RESERVIA
 
+<<<<<<< HEAD
 ![maquetteWebReservia](./assets/img/mockup/Desktop - 1.png)
 ![maquetteWebReservia](./assets/img/mockup/iPhone 8 - 1.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
 
+=======
+![maquette web reservia](../master/assets/img/mockup/Desktop - 1.png)
+![maquette web reservia](../master/assets/img/mockup/iPhone 8 - 1.png)
+
+
+## Éléments fournis par l'entreprise virtuelle.
+>>>>>>> 02ff055401da4b0f05a938aae92000395e4933be
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 - Les icones proviennent de [Font Awesome](https://fontawesome.com/)
