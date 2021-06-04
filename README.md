@@ -9,12 +9,6 @@ Transformer une maquette en site web
 
 ## Éléments fournis par l'entreprise virtuelle.
 
-=======
-![maquette web reservia](../master/assets/img/mockup/Desktop - 1.png)
-![maquette web reservia](../master/assets/img/mockup/iPhone 8 - 1.png)
-
-## Éléments fournis par l'entreprise virtuelle.
-
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
 - Toutes les images présentes sur le site sont aussi livrés en format sm, md, l & xl.
 - Les icones proviennent de [Font Awesome](https://fontawesome.com/)
