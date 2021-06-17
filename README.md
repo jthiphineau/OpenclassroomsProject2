@@ -4,8 +4,8 @@ Transformer une maquette en site web
 
 # RESERVIA
 
-![maquetteWebReservia](./assets/img/mockup/Desktop - 1.png)
-![maquetteWebReservia](./assets/img/mockup/iPhone 8 - 1.png)
+![maquetteWebReservia](assets/img/mockup/Desktop.png)
+![maquetteWebReservia](assets/img/mockup/iPhone8.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
 
